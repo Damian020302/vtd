@@ -12,5 +12,5 @@ for SERVER in "${ALIAS[@]}"; do
   FILE=${FILES[$INDEX]}
 
   echo "Enviando '$FILE' a $SERVER:$PORT"
-  ./client "$SERVER" "$PORT" "$FILE"
+  ./ClientB "$SERVER" "$PORT" "$FILE"
 done
